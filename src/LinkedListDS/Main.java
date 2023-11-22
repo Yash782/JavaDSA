@@ -12,7 +12,14 @@ public class Main {
         list.insertFirst(78);
         list.insertFirst(89);
         list.insertLast(100);
+        list.insertAt(200, 4);
+        list.deleteFirst();
+        list.deleteLast();
+        list.delete(3);
 
+
+        list.display();
+        list.reverse();
         list.display();
 
     }
